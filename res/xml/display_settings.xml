@@ -105,6 +105,18 @@
         lineage:replacesKey="ambient_display">
         <intent
             android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
+
+    <SwitchPreference
+            android:key="ambient_display_always_on"
+            android:title="@string/doze_always_on_title"
+            android:summary="@string/doze_always_on_summary" />
+
+    <ListPreference
+            android:key="force_ambient_for_media"
+            android:title="@string/force_ambient_for_media_pref_title"
+            android:entries="@array/force_ambient_for_media_entries"
+            android:entryValues="@array/force_ambient_for_media_values"
+            android:persistent="false" />
     </lineageos.preference.RemotePreference>
 
     <!-- Hide night mode for now
