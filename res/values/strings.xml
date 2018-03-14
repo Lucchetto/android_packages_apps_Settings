@@ -8693,10 +8693,6 @@
     <!-- Title text for double tap power for camera [CHAR LIMIT=60]-->
     <string name="double_tap_power_for_camera_title">Jump to camera</string>
 
-    <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Three finger gesture</string>
-    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
-
     <!-- Summary text for double tap power for camera [CHAR LIMIT=160]-->
     <string name="double_tap_power_for_camera_summary">To quickly open camera, press the power button twice. Works from any screen.</string>
 
