@@ -739,6 +739,9 @@
 
     <!-- Security Settings --><skip />
 
+    <string name="face_auto_unlock_title">Face auto unlock</string>
+    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+
     <!-- Security settings screen, setting option name to change screen timeout -->
     <string name="lock_after_timeout">Automatically lock</string>
     <!-- Security settings screen, setting option summary to change screen timeout -->
