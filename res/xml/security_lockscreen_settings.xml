@@ -32,12 +32,6 @@
         android:title="@string/owner_info_settings_title"
         android:summary="@string/owner_info_settings_summary" />
 
-    <SwitchPreference
-        android:key="face_auto_unlock"
-        android:title="@string/face_auto_unlock_title"
-        android:summary="@string/face_auto_unlock_summary"
-        android:defaultValue="false" />
-
     <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"
         android:title="@string/profile_section_header">
@@ -48,5 +42,11 @@
             android:summary="@string/summary_placeholder" />
 
     </PreferenceCategory>
+
+    <com.android.settings.preference.SecureSettingSwitchPreference
+        android:key="face_auto_unlock"
+        android:title="@string/face_auto_unlock_title"
+        android:summary="@string/face_auto_unlock_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
