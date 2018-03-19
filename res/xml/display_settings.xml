@@ -71,12 +71,6 @@
         android:key="rotation"
         lineage:requiresFeature="android.hardware.sensor.accelerometer" />
 
-    <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
-            android:key="three_finger_gesture"
-            android:title="@string/three_finger_gesture"
-            android:summary="@string/three_finger_gesture_summary"
-            android:defaultValue="true" />
-
     <Preference
         android:key="color_mode"
         android:title="@string/color_mode_title"
