@@ -47,6 +47,15 @@
             android:title="@string/doze_title"
             android:summary="@string/doze_summary" />
 
+        <lineageos.preference.RemotePreference
+            android:key="doze_device_settings"
+            android:title="@string/doze_title"
+            android:summary="@string/doze_summary"
+            lineage:replacesKey="ambient_display_notification">
+            <intent
+                android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
+        </lineageos.preference.RemotePreference>
+
         <ListPreference
             android:key="force_ambient_for_media"
             android:title="@string/force_ambient_for_media_pref_title"
